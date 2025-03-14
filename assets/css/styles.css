@@ -4,7 +4,7 @@
     --background-light: #FAF2FA;
 
     --accent-ligth: #F358E4;
-/*     --accent-ligth: red; */
+    --accent-ligth: red;
 
     --text-ligth: #0A050A;
     --text-dark: #FAF5FA;
@@ -223,7 +223,7 @@ body {
 }
 
 .date-configuration {
-    height: 30em;
+    height: 31em;
 }
 
 .header-configuration-filter__container {
@@ -481,6 +481,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 5%;
 }
 
 .arrow {
@@ -640,7 +641,7 @@ body {
     }
 
     .arrow {
-        width: 3.5em;
+        width: 1.5em;
     }
 
     .arrow svg{
