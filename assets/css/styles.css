@@ -4,7 +4,7 @@
     --background-light: #FAF2FA;
 
     --accent-ligth: #F358E4;
-    --accent-ligth: red;
+/*     --accent-ligth: red; */
 
     --text-ligth: #0A050A;
     --text-dark: #FAF5FA;
@@ -209,7 +209,7 @@ body {
 .to-configuration {
     display: none;
     width: 30em;
-    height: 25em;
+    height: 27em;
 }
 
 .travelers-configuration,
@@ -301,7 +301,7 @@ body {
 }
 
 .body-zone__container {
-    height: 16em;
+    height: 18em;
 }
 
 .list__container {
@@ -333,7 +333,8 @@ body {
 }
 
 .zone-list__container {
-    height: 50%;
+	height: auto;
+    max-height: 56%;
 }
 
 .airport-list__container,
