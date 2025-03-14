@@ -4,7 +4,7 @@
     --background-light: #FAF2FA;
 
     --accent-ligth: #F358E4;
-/*     --accent-ligth: red; */
+    --accent-ligth: red;
 
     --text-ligth: #0A050A;
     --text-dark: #FAF5FA;
@@ -219,11 +219,11 @@ body {
 }
 
 .travelers-configuration {
-    height: 13.2em;
+    height: 18em;
 }
 
 .date-configuration {
-    height: 25em;
+    height: 35em;
 }
 
 .header-configuration-filter__container {
@@ -438,7 +438,7 @@ body {
 }
 
 .pax__container {
-    width: 10%;
+    width: 25%;
     padding: 4%;
 }
 
@@ -599,7 +599,7 @@ body {
     .configuration-filter__container {
         top: 4%;
         left: 0;
-        width: 92%;
+        width: 100%;
         height: 91%;
         padding: 4%;
         border-bottom-right-radius: 0;
