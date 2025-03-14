@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    document.write('<style>#home-top { display: none; }</style>')
     // Variables de elementos HTML
     const onewayButton = document.getElementById('oneway__button');
     const fromInput = document.getElementById('from__input');
@@ -52,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const roundtrip = (oneWayActive === 'true') ? 'false' : 'true';
   
       // 6. Construir el enlace con la estructura requerida
-      let deepLink = `https://www.nexustours.com/transfers/results.aspx?origin${variable_from}=${fromId}` +
+      let deepLink = `hhttps://www.transfersrivieramaya.us/transfers/results.aspx?origin${variable_from}=${fromId}` +
                      `&destination${variable_to}=${toId}` +
                      `&startDate=${departureValue}`;
       if (oneWayActive === 'false') {
