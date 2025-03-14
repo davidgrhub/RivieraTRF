@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function generateLists() {
         try {
             // const response = await fetch('assets/php/from_data.php');
-            const response = await fetch('http://ec2-3-14-253-99.us-east-2.compute.amazonaws.com/from_data.php');
+            const response = await fetch('https://transfersrivieramaya.us/from_data.php');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
