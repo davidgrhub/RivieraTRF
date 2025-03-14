@@ -329,7 +329,7 @@ body {
 }
 
 .airport-list__container {
-    height: 50%;
+    height: auto;
 }
 
 .zone-list__container {
