@@ -4,7 +4,7 @@
     --background-light: #FAF2FA;
 
     --accent-ligth: #F358E4;
-    --accent-ligth: red;
+/*     --accent-ligth: red; */
 
     --text-ligth: #0A050A;
     --text-dark: #FAF5FA;
@@ -223,7 +223,7 @@ body {
 }
 
 .date-configuration {
-    height: 35em;
+    height: 30em;
 }
 
 .header-configuration-filter__container {
