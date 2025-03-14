@@ -4,7 +4,7 @@
     --background-light: #FAF2FA;
 
     --accent-ligth: #F358E4;
-    --accent-ligth: red;
+/*     --accent-ligth: red; */
 
     --text-ligth: #0A050A;
     --text-dark: #FAF5FA;
@@ -215,7 +215,7 @@ body {
 .date-configuration {
     display: none;
     width: 25em;
-    
+    user-select: none;
 }
 
 .travelers-configuration {
