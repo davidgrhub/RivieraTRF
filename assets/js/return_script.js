@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.innerWidth > 1000) {
             const rect = bookingengieContainer.getBoundingClientRect();
             returnCalendarContainer.style.top = `${rect.bottom + 12}px`;
-            returnCalendarContainer.style.left = `${rect.left}px`;
+            returnCalendarContainer.style.right = `${rect.left}px`;
         }
     };
 
