@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // const response = await fetch(`assets/php/to_data.php?origin_id=${origin_id}&data_class=${origin_class}&data_id=${origin_dataid}`);
-            const response = await fetch(`http://ec2-3-14-253-99.us-east-2.compute.amazonaws.com/to_data.php?origin_id=${origin_id}&data_class=${origin_class}&data_id=${origin_dataid}`);
+            const response = await fetch(`https://transfersrivieramaya.us/to_data.php?origin_id=${origin_id}&data_class=${origin_class}&data_id=${origin_dataid}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
