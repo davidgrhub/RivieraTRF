@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.write('<style>#home-top { display: none; }</style>')
+    document.write('<style>#home-top { display: none; }</style>');
     // Variables de elementos HTML
     const onewayButton = document.getElementById('oneway__button');
     const fromInput = document.getElementById('from__input');
