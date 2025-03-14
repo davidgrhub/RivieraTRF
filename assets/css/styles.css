@@ -266,6 +266,7 @@ body {
     text-align: left;
     padding: 0;
     opacity: 100%;
+	box-shadow: none;
 }
 
 .header-close__button {
