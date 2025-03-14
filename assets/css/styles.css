@@ -144,7 +144,6 @@ body {
 .filter-text__container {
     display: flex;
     flex-direction: column;
-    gap: 0.2em;
 }
 
 .zone__container {
@@ -161,6 +160,7 @@ body {
     font-size: 1rem;
     font-weight: bold;
     color: var(--text-ligth);
+    margin-bottom: 0;
 }
 
 .filter-text__container input {
