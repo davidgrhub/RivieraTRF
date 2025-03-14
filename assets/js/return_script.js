@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < offset; i++) {
             const emptyBtn = document.createElement('button');
             emptyBtn.className = "date faded";
+            emptyBtn.type = "button";
             emptyBtn.textContent = '';
             dateContainer.appendChild(emptyBtn);
         }
@@ -127,6 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let day = 1; day <= daysInMonth; day++) {
             const dayBtn = document.createElement('button');
             dayBtn.className = "date";
+            dayBtn.type = "button";
             dayBtn.textContent = day;
             const cellDate = new Date(year, monthIndex, day);
             
