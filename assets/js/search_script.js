@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const roundtrip = (oneWayActive === 'true') ? 'false' : 'true';
   
       // 6. Construir el enlace con la estructura requerida
-      let deepLink = `hhttps://www.transfersrivieramaya.us/transfers/results.aspx?origin${variable_from}=${fromId}` +
+      let deepLink = `https://www.transfersrivieramaya.us/transfers/results.aspx?origin${variable_from}=${fromId}` +
                      `&destination${variable_to}=${toId}` +
                      `&startDate=${departureValue}`;
       if (oneWayActive === 'false') {
